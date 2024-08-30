@@ -40,3 +40,9 @@ mkfs.ext4 "${LOOP_DEVICE}p1"
 mount "${LOOP_DEVICE}p1" "/root/rblxweb/gameusers/$GAMEID/"
 # Run Android Roblox Container
 docker run -itd --rm --privileged --pull always -v /root/rblxweb/gameusers/$GAMEID:/data -p $PORT:5555 redroid/redroid:10.0.0-latest androidboot.redroid_gpu_mode=host androidboot.redroid_width=1280 androidboot.redroid_height=720 androidboot.redroid_dpi=160
+sleep 8
+adb disconnect
+adb connect 127.0.0.1:$PORT
+adb shell wm density 160
+adb shell settings put global policy_control immersive.full=*
+adb install /root/rblxweb/latest.apk
