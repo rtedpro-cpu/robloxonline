@@ -29,4 +29,5 @@ adb disconnect
 adb connect 127.0.0.1:$PORT
 adb shell wm density 160
 adb shell settings put global policy_control immersive.full=*
-adb install /root/rblxweb/latest.apk
+cd "/root/rblxweb"
+adb install-multiple -d base.apk split_config.x86_64.apk
