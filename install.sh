@@ -9,7 +9,7 @@ sudo wget -O /root/rblxweb/startinstance.sh https://github.com/rtedpro-cpu/roblo
 sudo wget -O /root/rblxweb/latest.zip https://github.com/rtedpro-cpu/robloxonline/releases/download/2640a/roblox.zip
 sudo mkdir /root/rblxweb/dataimages
 sudo mkdir /root/rblxweb/gameusers
-sudo cd /root/rblxweb/
+cd /root/rblxweb/
 sudo unzip latest.zip
 sudo rm latest.zip
 echo "Installation finished! (Warring client website isnt included so run next installer"
