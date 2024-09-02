@@ -2,7 +2,7 @@
 
 echo "Roblox In Web Browser Server Installer"
 sudo apt update
-sudo apt install adb unzip wget docker docker.io -y
+sudo apt install adb unzip wget qemu-kvm docker docker.io -y
 sudo systemctl start docker
 sudo mkdir /root/rblxweb
 sudo wget -O /root/rblxweb/startinstance.sh "https://github.com/rtedpro-cpu/robloxonline/raw/main/startinstance.sh"
