@@ -32,4 +32,4 @@ adb shell settings put global policy_control immersive.full=*
 cd "/root/rblxweb"
 adb install-multiple -d base.apk split_config.x86_64.apk
 adb shell am start -n com.roblox.client/com.roblox.client.startup.ActivitySplash
-echo "Ready on IP:$PORT
+echo "Ready on IP:$PORT"
