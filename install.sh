@@ -12,4 +12,4 @@ sudo mkdir /root/rblxweb/gameusers
 cd /root/rblxweb/
 sudo unzip latest.zip
 sudo rm latest.zip
-echo "Installation finished!
+echo "Installation finished!"
