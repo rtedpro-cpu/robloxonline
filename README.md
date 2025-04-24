@@ -1,3 +1,7 @@
+# PROJECT PAUSED DUE TO WEB CLIENT
+# -- KEYMAPPING DOESN'T WORK
+# -- It will take longer as I will have to code a webrtc based client
+
 # Roblox Online Website (SelfHost)
 
 **Update as of now I am trying to get keymapping working (webclient almost 90 out of 100 done**
